@@ -49,3 +49,15 @@ default:
     break
 }
 print(strLife)
+
+var sum = 0
+for i in 0...5 {
+    sum += i
+}
+sum
+
+var aLotOfAs = ""
+while aLotOfAs.characters.count < 10 {
+    aLotOfAs += "a"
+}
+aLotOfAs
