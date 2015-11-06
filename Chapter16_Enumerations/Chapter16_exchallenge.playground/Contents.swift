@@ -38,4 +38,27 @@ enum Direction {
     case East
     case West
 }
-var movements: [Direction] = [.North]
+var movements: [Direction] = [.North, .North, .West, .South, .West, .South, .South, .East, .East, .South, .East]
+
+func calculateDirection(directions: [Direction]) -> (Int, Int){
+    var location = (x: 0, y: 0)
+    
+    for mov in directions {
+        switch mov {
+        case .East:
+            location.x += 1
+        case .West:
+            location.x -= 1
+        case .North:
+            location.y += 1
+        case .South:
+            location.y -= 1
+        }
+    }
+    
+    return location
+}
+
+calculateDirection(movements)
+
+
