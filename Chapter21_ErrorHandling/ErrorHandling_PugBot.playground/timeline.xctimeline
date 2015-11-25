@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=88&amp;CharacterRangeLoc=3180&amp;EndingColumnNumber=2&amp;EndingLineNumber=112&amp;StartingColumnNumber=1&amp;StartingLineNumber=112&amp;Timestamp=470135913.176115"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
